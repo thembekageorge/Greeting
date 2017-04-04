@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Greeting </title>
+<link rel="stylesheet" href="greet.css">
+</head>
+<body>
+  <center>
+  <div class="container">
+  <center><div class="firstPart">
+  <div class="heading">
+  <h1>Greeting</h1>
+    </div>
+  </div></center>
+  <br>
+  <br>
+  <div class="secondPart">
+    <form id="theForm">
+  <p id="prompt">Enter your name here:</p><br>
+       <input type="text" name="name" placeholder="enter your name here" id = "username"><br>
+       <br>
+      <p id="languages"><input type="radio" name="language" value="sesotho" id="sesotho">Sesotho</p>
+      <p id="languages"><input type="radio" name="language" value="english" id="english">English</p>
+      <p id="languages"><input type="radio" name="language" value="xhosa" id="xhosa">isiXhosa</p> <br>
+       <br>
+      <center><input type="button" value="Submit" id = "submitButton"></center>
+      <p id="counterDisplay"></p>
+      <center><input type="button" value="Reset" id = "resetButton"></center>
+      <p id="display"></p>
+    </form>
+<!-- <p id="example"></p> -->
+  </div>
+  <script src="greet.js" charset="utf-8">
+  </script>
+    </div>
+  </center>
+</body>
+</html>

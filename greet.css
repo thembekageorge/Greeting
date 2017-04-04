@@ -1,0 +1,79 @@
+body{
+background-image: url("background_image.jpg");
+}
+.firstPart {
+color: #696969;
+}
+.container {
+color : #FFFFFF ;
+width: 600px;
+border: 25px solid green;
+padding: 150px;
+margin: 85px;
+position: relative;
+padding-top: 25px;
+padding-bottom: 300px;
+}
+.heading {
+width: 130px;
+border: 5px solid #800020;
+margin: 5px;
+margin-top: auto;
+background-color: #FFFFFF;
+}
+#username {
+font-size: 2em;
+}
+#submitButton {
+  background-color: #4CAF50;
+   border: 2px solid #800020;
+   color: pink;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 2em;
+}
+#prompt {
+font-size: 3em;
+font-style: italic;
+font-weight: bolder;
+color: #800020;
+}
+#languages {
+font-size: 3em;
+font-weight: bolder;
+color: #800020;
+display: inline;
+}
+/*#theForm {
+border: 2px solid grey;
+}*/
+#display {
+background-color: pink;
+padding: 50px;
+font-size: 3em;
+color: grey;
+font-weight: bold;
+}
+#username
+{
+  color: grey;
+}
+#counterDisplay{
+  display: inline-block;
+  background-color: pink;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 30px;
+  color: grey;
+}
+#resetButton {
+  background-color: #4CAF50;
+   border: 2px solid #800020;
+   color: pink;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 2em;
