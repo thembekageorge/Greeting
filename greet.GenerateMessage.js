@@ -1,6 +1,5 @@
 
 function generateGreeting(nameHold){
-// var nameHold = document.getElementById("username").value;
 
 document.getElementById("display").value = "";
 

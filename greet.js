@@ -15,7 +15,7 @@ document.getElementById("resetButton").addEventListener("click", resetCounter);
 function output() {
 
  var nameHold = document.getElementById("username").value;
- generateGreeting(nameHold);
+ if (generateGreeting(nameHold))
   //
   // document.getElementById("display").value = "";
   //
