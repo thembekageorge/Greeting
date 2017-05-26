@@ -15,7 +15,8 @@ document.getElementById("resetButton").addEventListener("click", resetCounter);
 function output() {
 
  var nameHold = document.getElementById("username").value;
- if (generateGreeting(nameHold))
+ var language = checkLingo();
+ document.getElementById('display').innerHTML= generateGreeting(nameHold, language);
   //
   // document.getElementById("display").value = "";
   //
