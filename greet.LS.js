@@ -1,12 +1,11 @@
-function storeToLocalStorage(currentCounter){
+function storeToLocalStorage(currentCounter) {
 
-var whatsthere = localStorage.getItem('counter');
+  var whatsthere = localStorage.getItem('counter');
 
-// check if theere is any counter value stored in LocalStorage
-if (whatsthere) {
- localStorage.setItem('counter', whatsthere);
- counter = whatsthere;
-
-}
+  // check if theere is any counter value stored in LocalStorage
+  if (whatsthere) {
+    localStorage.setItem('counter', whatsthere);
+    //counter = whatsthere;
+  }
 
 }
